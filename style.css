@@ -1,0 +1,8 @@
+body{
+	background: #f9ffff;
+}
+#defaultCanvas{
+	
+	width: 800px !important;
+	height: 800px !important;
+}
