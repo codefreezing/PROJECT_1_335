@@ -1,12 +1,12 @@
 var x, y, direction, rowWidth, rowHeight, boxes = [], slider;
 function setup(){
-	frameRate(1);
+	frameRate(1000);
 	
 	direction = "UP";
-	rowWidth = 40;
-	rowHeight = 40;
-	x = rowWidth/2;
-	y = rowHeight/2;
+	rowWidth = 41;
+	rowHeight = 41;
+	x = round(rowWidth/2);
+	y = round(rowHeight/2);
 
 	var w = rowWidth*10 + 10, h = rowHeight*10 + 10;
 
