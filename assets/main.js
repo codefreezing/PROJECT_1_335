@@ -1,4 +1,4 @@
-var x, y, direction, rowWidth, rowHeight, boxes = [], slider;
+var x, y, direction, rowWidth, rowHeight, boxes = [];
 function setup(){
 	frameRate(1000);
 	
