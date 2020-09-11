@@ -23,7 +23,6 @@ function setup(){
 	}
 	loop();	
 }
-
 function downMove(){
 	rect(10 + 10*x, 10 + 10*y, 10, 10);
 	y+=1;
@@ -65,10 +64,11 @@ function draw(){
 	currentPixel = boxes[x + y*rowWidth];
 	console.log(direction);
 	console.log(currentPixel);
+	console.log(firstState);
 	if(firstState == 1){
-		boxes[x + y*rowWidth] = "RED";
-		fill('red');
-		leftMove();		
+		fill('white');
+	     stroke(0);
+	     text('^',7.5 + 10*x,17 + 10*y);		
 	}else{
 		if(direction == "LEFT"){
 			if (currentPixel == "BLACK"){

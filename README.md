@@ -11,13 +11,13 @@ After leaving a black cell, the black cell will turn to red, then the red will t
 To manipulate each move of the ant, we use an array to store all the moves.
 
 Contents: 
-index.html	(in folder main html )
-main.js	(in folder assets)
-styles.css	(in folder assets)
+index.html	(in main folder)
+main.js	(in assets folder)
+styles.css	(in assets folder)
 
 External Requirements: N/A
 
-Setup and Installation: Unzip the zip files and go to the index html folder, open the index.html to a browser
+Setup and Installation: Unzip the zip files and open the index.html to a browser
 
 Sample invocation: 
 
