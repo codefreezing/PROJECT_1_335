@@ -1,0 +1,17 @@
+CPSC 335-02
+Project 1 - Cella Ant 15
+Team: SAKURA
+Members: Phuong Nguyen & Phuc Dang
+
+BigO of functions:
+setup(): O (n) + c = O(n) which is draw grid
+downMove(): O(1)
+leftMove(): O(1)
+rightMove():O(1)
+upMove():O(1)
+draw (recursive loop n times): O(n) because 
+	T(n) = T(n-1) + c
+	=> T(n) = n*c  = O(n)
+	
+Consequently, the Big-O running time of our algorithm is O(n)
+

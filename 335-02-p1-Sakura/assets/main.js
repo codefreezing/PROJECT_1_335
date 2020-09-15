@@ -1,6 +1,6 @@
 var x, y, direction, rowWidth, rowHeight, boxes = [];
 function setup(){
-	frameRate(1000);
+	frameRate(1);
 	
 	direction = "UP";
 	rowWidth = 41;
@@ -62,9 +62,6 @@ var firstState = 0;
 function draw(){
 	firstState++;
 	currentPixel = boxes[x + y*rowWidth];
-	console.log(direction);
-	console.log(currentPixel);
-	console.log(firstState);
 	if(firstState == 1){
 		fill('white');
 	     stroke(0);
